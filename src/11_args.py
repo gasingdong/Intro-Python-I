@@ -15,10 +15,7 @@ print(f1(1, 2))
 
 # YOUR CODE HERE
 def f2(*argv):
-  sum = 0
-  for num in argv:
-    sum += num
-  return sum
+  return sum(argv)
 
 print(f2(1))                    # Should print 1
 print(f2(1, 3))                 # Should print 4
