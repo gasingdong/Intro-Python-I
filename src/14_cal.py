@@ -25,7 +25,7 @@ from datetime import datetime
 
 now = datetime.now()
 args = sys.argv
-argLength= len(sys.argv)
+argLength = len(sys.argv)
 month = int(sys.argv[1]) if argLength > 1 else now.month
-year = int(sys.argv[2]) if argLength > 2 else now.year 
+year = int(sys.argv[2]) if argLength > 2 else now.year
 print(calendar.month(year, month))
